@@ -1,0 +1,30 @@
+<html>
+<head>
+ 
+<script>
+function conct(){
+var s1;
+var s2;
+var Tstr;
+ 
+s1=document.getElementById("st1").value;
+s2=document.getElementById("str2").value;
+Tstr=s1+s2;
+ 
+document.getElementById("demo").innerHTML = Tstr;
+}
+ 
+</script>
+</head>
+ 
+<body style="text-align:center";>
+<br><br>
+String 1 : <input id="st1"><br><br>
+String 2 : <input id="str2"><br><br>
+ 
+<button onclick ="conct()">concatenate</button><br><br>
+<h3 id="demo">  </h3>
+ 
+ 
+</body>
+</html>
